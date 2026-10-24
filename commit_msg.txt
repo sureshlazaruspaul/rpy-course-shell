@@ -1,7 +1,1 @@
-1. uploaded ipynb-files/0.syllabus.ipynb
-2. updated ipynb-files/README.md
-
-Syllabus
-
-filename: 
-- 0.syllabus.ipynb
+added requirements.txt
