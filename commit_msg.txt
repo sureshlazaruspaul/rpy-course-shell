@@ -1,1 +1,1 @@
-added requirements.txt
+updated requirements.txt and syllabus
