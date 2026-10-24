@@ -1,7 +1,6 @@
-1. uploaded ipynb-files/0.BUS622_HW_Peer_Evaluation_Report.ipynb
-2. updated ipynb-files/README.md
+1. uploaded data-files/iris.csv
+2. uploaded data-files/mtcars.csv
+3. uploaded data-files/trades.json
+4. updated data-files/README.md
 
-Syllabus
-
-filename: 
-- 0.BUS622_HW_Peer_Evaluation_Report.ipynb
+Lesson 2: File Path Handling using pathlib package
