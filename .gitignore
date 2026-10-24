@@ -1,3 +1,7 @@
+mba_coding_install_guide.Rmd
+mba_mac_install_guide.Rmd
+mba_windows_install_guide.Rmd
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
