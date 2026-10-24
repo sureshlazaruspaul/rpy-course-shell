@@ -1,1 +1,7 @@
-uploaded 0.BUS622_HW_Peer_Evaluation_Report.ipynb file
+1. uploaded ipynb-files/0.BUS622_HW_Peer_Evaluation_Report.ipynb
+2. updated ipynb-files/README.md
+
+Syllabus
+
+filename: 
+- 0.BUS622_HW_Peer_Evaluation_Report.ipynb
