@@ -1,0 +1,297 @@
+---
+title: "Home Installation Guide: Python, R, and Visual Studio Code"
+subtitle: "MBA Coding Course: Windows and macOS Laptops"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  pdf_document:
+    latex_engine: xelatex
+    toc: true
+    toc_depth: 2
+    number_sections: true
+geometry: margin=1in
+fontsize: 11pt
+---
+
+# Before You Begin
+
+- The software used in this course is already installed in the college computer labs.
+- This guide is for students who want to set up the same tools on their own Windows or Mac laptop for home use.
+- Plan for about 60 to 90 minutes the first time, including downloads.
+- Use a stable internet connection. The total download size is roughly 2 to 3 GB once the R packages and the LaTeX engine are included.
+- Use an administrator account on your laptop. You will need permission to install programs.
+- Close any other programs before you start, and keep your laptop plugged in.
+- Read each section in order. Python, R, and Visual Studio Code are installed separately, and each one depends on the earlier steps being complete.
+
+## What You Will Install
+
+- **Python**: a general-purpose programming language widely used in business analytics, data science, and finance.
+- **R**: a programming language built specifically for statistics, data analysis, and visualization.
+- **RStudio Desktop**: a workspace for writing and running R code. It is a separate program from R itself.
+- **Visual Studio Code (VS Code)**: a free code editor that runs Python, R, and many other languages through extensions.
+- **TinyTeX**: a small LaTeX distribution that includes the **xelatex** engine. You need it to render R Markdown files to PDF.
+
+## Key Terms to Know
+
+- **Installer**: a program that copies software onto your computer and sets it up.
+- **Terminal**: a text window where you type commands. On Windows it is called Command Prompt or PowerShell. On Mac it is called Terminal.
+- **Path**: the list of folders your computer searches when you type a program name. Some installers add Python or R to the path automatically, and some do not.
+- **Extension**: an add-on for VS Code that adds features for a specific language.
+- **Package**: a collection of reusable code that extends a language. Python calls these libraries, and R calls them packages.
+
+# Step 1: Check Your Computer
+
+## Windows
+
+- Click the **Start** button and type **About your PC**.
+- Confirm you are running **Windows 10** (version 22H2 or later) or **Windows 11**.
+- Note whether your system type is **64-bit operating system**. Almost all current laptops are 64-bit.
+
+## Mac
+
+- Click the **Apple menu** in the top-left corner and select **About This Mac**.
+- Note your macOS version. This course supports **macOS 13 (Ventura)** or later.
+- Note your chip type:
+    - **Apple silicon** appears as **Chip: Apple M1, M2, M3, or M4**.
+    - **Intel** appears as **Processor: Intel Core**.
+- You will need the correct installer for your chip in several steps below. Choose carefully.
+
+# Step 2: Install Python
+
+## Download the Installer
+
+- Open your web browser and go to **python.org** (the official site).
+- Hover over the **Downloads** menu and click the newest **Python 3** release (for example, Python 3.12 or 3.13).
+- Choose the correct installer for your system:
+    - **Windows**: choose **Windows installer (64-bit)**.
+    - **Mac with Apple silicon**: choose **macOS 64-bit universal2 installer**.
+    - **Mac with Intel**: choose **macOS 64-bit universal2 installer** (the same file works on both chips).
+
+## Install on Windows
+
+- Double-click the downloaded file (it will be named something like `python-3.x.x-amd64.exe`).
+- **Important:** On the first screen, check the box labeled **Add python.exe to PATH** at the bottom. If you skip this, Python will not run from the terminal.
+- Click **Install Now**.
+- Wait for the message **Setup was successful**, then click **Close**.
+
+## Install on Mac
+
+- Double-click the downloaded `.pkg` file.
+- Click **Continue** through the introduction, license, and destination screens.
+- Click **Install** and enter your Mac password when prompted.
+- Click **Close** when the installation finishes.
+- Python on Mac installs under the name **python3** rather than **python**. Keep this in mind for the commands in the next step.
+
+## Disable the Windows Store Alias (Windows Only)
+
+- Windows includes a placeholder called the Microsoft Store alias that can interfere with Python.
+- Click **Start** and type **Manage app execution aliases**.
+- Turn **off** the switches for **python.exe** and **python3.exe** under **App execution aliases**.
+- Close the window, then continue with the verification step.
+
+## Verify the Python Installation
+
+- Open the terminal:
+    - **Windows**: click **Start**, type **cmd**, and press **Enter**.
+    - **Mac**: press **Command + Space**, type **Terminal**, and press **Enter**.
+- Type the following command and press **Enter**:
+    - **Windows**: `python --version`
+    - **Mac**: `python3 --version`
+- You should see a line such as `Python 3.12.x`. Any version 3.10 or later is acceptable.
+- Check that the package manager **pip** is also available:
+    - **Windows**: `pip --version`
+    - **Mac**: `pip3 --version`
+
+## Install Python Packages
+
+- Install the libraries used in most introductory business analytics work by typing one command in the terminal:
+    - **Windows**: `pip install pandas numpy matplotlib jupyter`
+    - **Mac**: `pip3 install pandas numpy matplotlib jupyter`
+- Wait for the message **Successfully installed** at the end. This can take several minutes.
+- Each package has a specific role:
+    - **pandas**: loads and manipulates tables of data, similar to a spreadsheet.
+    - **numpy**: performs fast numerical calculations.
+    - **matplotlib**: creates charts and graphs.
+    - **jupyter**: provides notebook files that mix code, text, and output.
+
+# Step 3: Install R
+
+## Download R
+
+- Open your web browser and go to **cran.r-project.org** (the Comprehensive R Archive Network).
+- Click the link for your operating system:
+    - **Windows**: click **Download R for Windows**, then **base**, then **Download R-4.x.x for Windows**.
+    - **Mac**: click **Download R for macOS**.
+- On the Mac page, choose the correct package for your chip:
+    - **Apple silicon**: download the file labeled **arm64** (for example, `R-4.x.x-arm64.pkg`).
+    - **Intel**: download the file labeled **x86_64** (for example, `R-4.x.x-x86_64.pkg`).
+- Use the most recent R 4.x release listed.
+
+## Install on Windows
+
+- Double-click the downloaded `.exe` file.
+- Accept the default language and click **Next** through each screen.
+- Keep the default installation folder unless you have a reason to change it.
+- Keep the components checked by default. Click **Install**, then **Finish**.
+
+## Install on Mac
+
+- Double-click the downloaded `.pkg` file.
+- Click **Continue** through each screen, then click **Install**.
+- Enter your Mac password when prompted and wait for the installation to finish.
+
+## Verify the R Installation
+
+- Open the R application you just installed. On Windows it appears as **R x64** or **R** in the Start menu. On Mac it appears as **R** in Applications.
+- A window with a `>` prompt appears. This is the R console.
+- Type `R.version.string` and press **Enter**. You should see a line such as `"R version 4.x.x"`.
+- Close the window once you have confirmed the version.
+
+# Step 4: Install RStudio Desktop
+
+- RStudio is the recommended editor for R. It runs on top of the R installation you completed in Step 3.
+- Open your web browser and go to **posit.co/download/rstudio-desktop**.
+- Click the download button for your operating system:
+    - **Windows**: download the Windows installer (`.exe`).
+    - **Mac**: download the macOS installer (`.dmg`). It works for both chip types.
+- Install the program:
+    - **Windows**: double-click the installer and click **Next** through each screen, then **Finish**.
+    - **Mac**: double-click the `.dmg` file, then drag the **RStudio** icon into the **Applications** folder.
+- Open RStudio. It has four panels by default:
+    - **Source** (top-left): where you write code files.
+    - **Console** (bottom-left): where code runs and results appear.
+    - **Environment and History** (top-right): lists the data objects you have created.
+    - **Files, Plots, Packages, and Help** (bottom-right): shows files, charts, and documentation.
+- Confirm that the console shows your R version near the top. If RStudio cannot find R, go to **Tools**, then **Global Options**, then **R General**, and point it to the R installation.
+
+## Install R Packages
+
+- Click inside the **Console** panel in RStudio.
+- Type the following command and press **Enter**:
+
+    `install.packages(c("tidyverse", "rmarkdown", "knitr"))`
+
+- The packages do the following:
+    - **tidyverse**: a family of packages for data cleaning, transformation, and charting.
+    - **rmarkdown**: converts R Markdown files into documents such as PDF, Word, and HTML.
+    - **knitr**: runs the code chunks inside R Markdown files.
+- Answer **Yes** if RStudio asks whether to install from source or to restart R. Installation can take 5 to 15 minutes.
+- If RStudio asks you to choose a CRAN mirror, select a mirror near you, such as one in the United States or Germany.
+
+## Install TinyTeX for PDF Output
+
+- PDF rendering from R Markdown requires a LaTeX engine. The course uses **xelatex**, which TinyTeX includes.
+- Type the following command in the RStudio Console and press **Enter**:
+
+    `tinytex::install_tinytex()`
+
+- This download is approximately 150 MB and can take 10 to 20 minutes. Do not close RStudio while it runs.
+- When it finishes, restart RStudio so the change takes effect.
+- Confirm the engine is available by typing the following in the Console and pressing **Enter**:
+
+    `tinytex::is_tinytex()`
+
+- The result should be `[1] TRUE`.
+
+# Step 5: Install Visual Studio Code
+
+## Download and Install
+
+- Open your web browser and go to **code.visualstudio.com**.
+- Click the **Download** button. The site selects the right version for your system automatically.
+- Install the program:
+    - **Windows**: double-click the installer. On the **Select Additional Tasks** screen, check **Add to PATH** and **Register Code as an editor for supported file types**. Click **Next**, then **Install**.
+    - **Mac**: double-click the downloaded `.zip` file to unpack it, then drag **Visual Studio Code.app** into the **Applications** folder.
+- Open VS Code once to confirm it starts.
+- On Mac, to use the `code` command from the terminal, open VS Code, press **Command + Shift + P**, type **Shell Command: Install 'code' command in PATH**, and press **Enter**.
+
+## Install Extensions
+
+- In VS Code, click the **Extensions** icon in the left sidebar. It looks like four squares, with one square offset.
+- Search for and install each of the following extensions by clicking **Install**:
+    - **Python** (published by Microsoft): provides code completion, debugging, and running for Python files.
+    - **Jupyter** (published by Microsoft): lets you open and run `.ipynb` notebook files.
+    - **R** (published by REditorSupport): provides R syntax highlighting, code execution, and a console.
+    - **Quarto** (published by Quarto): optional, but useful for creating reports that combine code and text.
+- Restart VS Code after installing the extensions.
+
+## Connect VS Code to Python
+
+- Create a folder on your laptop for your coursework, such as `Documents/MBA_Coding`.
+- In VS Code, click **File**, then **Open Folder**, and select that folder.
+- Click **File**, then **New File**, and save it as `test.py`.
+- Type the following line in the file:
+
+    `print("Python is working")`
+
+- Click the **Run** triangle in the top-right corner of the editor, or press **Control + F5** on Windows or **Control + Option + N** on Mac.
+- If VS Code asks you to select an interpreter, press **Ctrl/Command + Shift + P**, type **Python: Select Interpreter**, and choose the Python version you installed in Step 2.
+- The message `Python is working` should appear in the **Terminal** panel at the bottom.
+
+## Connect VS Code to R
+
+- In the same folder, create a new file named `test.R`.
+- Type the following line:
+
+    `print("R is working")`
+
+- Select the line with your mouse, then press **Control + Enter** on Windows or **Command + Enter** on Mac.
+- VS Code opens an R terminal and runs the line. The message `R is working` should appear in the terminal.
+- If the R terminal does not open, press **Ctrl/Command + Shift + P**, type **R: Create R Terminal**, and press **Enter**.
+
+# Step 6: Verify Your Complete Setup
+
+- Create a new file named `check_setup.Rmd` in RStudio, or in VS Code if you prefer.
+- Paste the following minimal R Markdown document into it:
+
+    `---`
+    `title: "Setup Check"`
+    `output: pdf_document`
+    `---`
+
+    `This is a test document.`
+
+- Click the **Knit** button in RStudio, or run `rmarkdown::render("check_setup.Rmd")` in the Console.
+- Select **Knit to PDF** if prompted.
+- If a PDF named `check_setup.pdf` appears in the same folder, your setup is complete.
+- If you see an error about a missing LaTeX package, run `tinytex::tlmgr_install("<package-name>")` with the package name shown in the error, then knit again.
+
+# Troubleshooting
+
+## Windows Problems
+
+- **Error: "python is not recognized as an internal or external command"**: Python was installed without the PATH option. Uninstall Python, reinstall it, and check **Add python.exe to PATH** on the first screen.
+- **Python opens the Microsoft Store**: the App execution alias is still on. Complete the steps in the section titled **Disable the Windows Store Alias**.
+- **Permission denied during pip install**: close the terminal, open a new one as usual, and try again. If it persists, add `--user` to the end of the command.
+- **Antivirus blocks the installer**: temporarily pause real-time protection, complete the installation, then turn protection back on. Download installers only from the official websites listed in this guide.
+
+## Mac Problems
+
+- **Command not found: python**: on Mac, use `python3` and `pip3` instead of `python` and `pip`.
+- **Wrong R version for your chip**: if R runs slowly or reports an architecture mismatch, uninstall R and reinstall the **arm64** package for Apple silicon, or the **x86_64** package for Intel.
+- **Xcode or developer tools prompt**: if a package asks for command-line tools, open Terminal, type `xcode-select --install`, press **Enter**, and follow the prompts. This download is large, so plan for extra time.
+- **Gatekeeper warning ("cannot be opened because the developer cannot be verified")**: right-click (or Control-click) the application, choose **Open**, then click **Open** in the dialog. Do this only for installers you downloaded from the official websites.
+
+## General Problems
+
+- **Package installation fails with a network error**: switch to a different network, such as a home Wi-Fi connection instead of a campus or hotel network, and try again.
+- **RStudio cannot find R**: go to **Tools**, then **Global Options**, then **R General**, and set the R executable path manually.
+- **VS Code does not detect Python**: install the Python extension, then select the interpreter using **Python: Select Interpreter** from the command palette.
+- **PDF rendering fails**: confirm `tinytex::is_tinytex()` returns `TRUE`. If it does not, reinstall TinyTeX with `tinytex::install_tinytex()`.
+
+# Getting Help
+
+- Bring your laptop's operating system version, the exact error message, and a screenshot to office hours or the course forum.
+- Do not share passwords, license keys, or personal data when asking for help online.
+- Do not try to install software from links sent by email or social media. Use only the official websites named in this guide: **python.org**, **cran.r-project.org**, **posit.co**, and **code.visualstudio.com**.
+
+# Final Checklist
+
+- Python runs from the terminal (`python --version` or `python3 --version`).
+- The packages pandas, numpy, matplotlib, and jupyter are installed.
+- R runs and reports version 4.x.
+- RStudio opens and shows R in the console.
+- The packages tidyverse, rmarkdown, and knitr are installed.
+- `tinytex::is_tinytex()` returns `TRUE`.
+- VS Code opens, and the Python, Jupyter, and R extensions are installed.
+- A test Python file and a test R file both run inside VS Code.
+- The sample `check_setup.Rmd` file renders to a PDF.

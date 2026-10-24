@@ -1,0 +1,6 @@
+added Lesson 1 file:
+
+Introduction to Python Programming
+
+filename: 
+- 1.console-programming.ipynb
