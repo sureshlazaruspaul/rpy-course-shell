@@ -1,6 +1,6 @@
-added Lesson 1 file:
+updated README.md
 
-Introduction to Numpy
+Lesson 1: Introduction to Numpy
 
 filename: 
 - numpy_prog.py
