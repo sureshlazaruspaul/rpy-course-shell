@@ -1,6 +1,5 @@
-1. uploaded data-files/iris.csv
-2. uploaded data-files/mtcars.csv
-3. uploaded data-files/trades.json
-4. updated data-files/README.md
+1. uploaded py-files/csv_import.py
+2. uploaded py-files/json_import.py
+4. updated py-files/README.md
 
 Lesson 2: File Path Handling using pathlib package
