@@ -1,6 +1,6 @@
-updated py-files/README.md
+updated ipynb-files/README.md
 
-Lesson 1: Introduction to Numpy
+Lesson 1: Basic Console Programming
 
 filename: 
-- numpy_prog.py
+- 1.console-programming.ipynb
