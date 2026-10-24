@@ -1,6 +1,6 @@
 added Lesson 1 file:
 
-Introduction to Python Programming
+Introduction to Numpy
 
 filename: 
-- 1.console-programming.ipynb
+- numpy_prog.py
