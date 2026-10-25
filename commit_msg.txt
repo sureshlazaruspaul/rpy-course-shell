@@ -1,6 +1,4 @@
-1. uploaded py-files/sorting_basics.py
+1. uploaded py-files/type_annotation.py
 2. updated py-files/README.md
 
-Lesson 4: Sort and Compute by Group using pandas package
-
--	use local data file: stock-price-data.csv
+Lesson 5: Type Annotation Basics
