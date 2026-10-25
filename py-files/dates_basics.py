@@ -22,7 +22,7 @@
 
 # import all libraries
 import pandas as pd
-from icecream import ic
+from icecream import ic # type: ignore
 from pathlib import Path
 
 # fetch the directory where data is situated

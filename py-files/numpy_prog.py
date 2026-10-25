@@ -1,6 +1,6 @@
 # import all libraries
 import numpy as np # type: ignore
-from icecream import ic
+from icecream import ic # type: ignore
 
 # Things to remember:
 # 1. Numpy arrays allow for efficient mathematical operations on 

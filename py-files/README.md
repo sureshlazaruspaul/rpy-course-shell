@@ -9,6 +9,10 @@
 -   Lesson 3: Date Handling using pandas package: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/dates_basics.py)
 -   Lesson 4: Sort and Compute by Group using pandas package: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/sorting_basics.py)
 -   Lesson 5: Type Annotation Basics: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/type_annotation.py)
+-   Lesson 6: Loops
+    -   FOR Loops: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/for_loops_basics.py)
+    -   IF Loops: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/if_loops_basics.py)
+
 
 
 

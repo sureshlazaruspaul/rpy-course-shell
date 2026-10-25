@@ -1,4 +1,5 @@
-1. uploaded py-files/type_annotation.py
-2. updated py-files/README.md
+1. uploaded py-files/for_loops_basics.py
+2. uploaded py-files/if_loops_basics.py
+3. updated py-files/README.md
 
-Lesson 5: Type Annotation Basics
+Lesson 6: Loops
