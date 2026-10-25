@@ -7,4 +7,6 @@
     -   File Path Handling using pathlib package - csv import: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/csv_import.py)
     -   File Path Handling using pathlib package - json import: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/json_import.py)
 -   Lesson 3: Date Handling using pandas package: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/dates_basics.py)
+-   Lesson 4: Sort and Compute by Group using pandas package: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/sorting_basics.py)
+
 

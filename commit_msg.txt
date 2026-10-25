@@ -1,6 +1,6 @@
-1. uploaded data-files/dates.csv
-2. updated data-files/README.md
-3. uploaded py-files/dates_basics.py
-4. updated py-files/README.md
+1. uploaded py-files/sorting_basics.py
+2. updated py-files/README.md
 
-Lesson 3: Date Handling using pandas package
+Lesson 4: Sort and Compute by Group using pandas package
+
+-	use local data file: stock-price-data.csv
