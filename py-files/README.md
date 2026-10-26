@@ -20,6 +20,7 @@
     -   importing a csv file: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/csv_import_function.py)
     -   converting a list to numpy array: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/list2numpy.py)
     -   array arithmetic: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/array_arithmetic.py)
+-   Lesson 10: Pre-requisites to DCF: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/extend_array.py)
 
 
 

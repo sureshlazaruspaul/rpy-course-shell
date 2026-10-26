@@ -1,9 +1,6 @@
-Lesson 9: Validation of function arguments
+Lesson 10: Pre-requisites to DCF
 
-1. uploaded py-files/csv_import_function.py
-2. uploaded py-files/list2numpy.py
-3. uploaded py-files/array_arithmetic.py
-4. updated py-files/README.md
-
-data required:
-data-files/iris.csv
+1. uploaded py-files/extend_array.py
+2. uploaded data-files/dcf_data.py
+3. updated py-files/README.md
+4. updated data-files/README.md
