@@ -1,5 +1,5 @@
-1. uploaded py-files/for_loops_basics.py
-2. uploaded py-files/if_loops_basics.py
+1. uploaded py-files/functions_basics.py
+2. uploaded py-files/notification_app.py
 3. updated py-files/README.md
 
-Lesson 6: Loops
+Lesson 7: Functions

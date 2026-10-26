@@ -12,6 +12,9 @@
 -   Lesson 6: Loops
     -   FOR Loops: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/for_loops_basics.py)
     -   IF Loops: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/if_loops_basics.py)
+-   Lesson 7: Functions
+    -   Function basics: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/functions_basics.py)
+    -   Notifications app: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/notification_app.py)
 
 
 
