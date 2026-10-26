@@ -1,6 +1,6 @@
 Lesson 10: Pre-requisites to DCF
 
 1. uploaded py-files/extend_array.py
-2. uploaded data-files/dcf_data.py
+2. uploaded data-files/dcf_data.csv
 3. updated py-files/README.md
 4. updated data-files/README.md
