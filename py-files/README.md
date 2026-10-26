@@ -16,6 +16,10 @@
     -   Function basics: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/functions_basics.py)
     -   Notifications app: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/notification_app.py)
 -   Lesson 8: Logging Basics: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/write_logs.py)
+-   Lesson 9: Validation of function arguments
+    -   importing a csv file: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/csv_import_function.py)
+    -   converting a list to numpy array: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/list2numpy.py)
+    -   array arithmetic: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/array_arithmetic.py)
 
 
 
