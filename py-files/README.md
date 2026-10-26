@@ -15,7 +15,7 @@
 -   Lesson 7: Functions
     -   Function basics: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/functions_basics.py)
     -   Notifications app: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/notification_app.py)
-
+-   Lesson 8: Logging Basics: click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/py-files/write_logs.py)
 
 
 

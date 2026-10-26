@@ -1,5 +1,4 @@
-1. uploaded py-files/functions_basics.py
-2. uploaded py-files/notification_app.py
-3. updated py-files/README.md
+Lesson 8: Logging Basics
 
-Lesson 7: Functions
+1. uploaded py-files/write_logs.py
+2. updated py-files/README.md
