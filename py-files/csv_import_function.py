@@ -1,3 +1,4 @@
+# type: ignore
 # file: csv_import.py
 # add emoticons to logging messages for quick diagnosis
 # Example usage: success: ✅, warning: ⚠️, error: ❌

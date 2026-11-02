@@ -1,3 +1,4 @@
+# type: ignore
 # file: array_arithmetic.py
 # add emoticons to logging messages for quick diagnosis
 # Example usage: success: ✅, warning: ⚠️, error: ❌, 

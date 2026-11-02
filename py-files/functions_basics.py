@@ -1,5 +1,6 @@
+# type: ignore
 import numpy as np
-from icecream import ic # type: ignore
+from icecream import ic
 
 # input a vector (list) of financial data from yahoo finance
 # AAPL Income Statement (in thousands)

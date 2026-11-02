@@ -1,3 +1,4 @@
+# type: ignore
 import json
 import numpy as np
 from icecream import ic # type: ignore

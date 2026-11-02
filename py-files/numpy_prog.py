@@ -1,6 +1,7 @@
+# type: ignore
 # import all libraries
-import numpy as np # type: ignore
-from icecream import ic # type: ignore
+import numpy as np
+from icecream import ic
 
 # Things to remember:
 # 1. Numpy arrays allow for efficient mathematical operations on 

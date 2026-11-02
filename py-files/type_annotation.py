@@ -1,3 +1,4 @@
+# type: ignore
 # file: type_annotation.py
 # purpose: Demonstrate type annotations in Python
 # author: Suresh Paul

@@ -1,3 +1,4 @@
+# type: ignore
 # file: py/logging.py
 # add emoticons to logging messages for quick diagnosis
 # Example usage: success: ✅, warning: ⚠️, error: ❌

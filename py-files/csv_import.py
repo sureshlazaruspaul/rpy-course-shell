@@ -1,6 +1,7 @@
+# type: ignore
 #----------------------------------------------------------------------
 # author: Suresh Paul
-# date: November 2025
+# date: November 2026
 # objective: CSV import and export using pandas
 #   This script showcases how to read a CSV file into a pandas DataFrame,
 #   perform some basic data manipulation, and then export the DataFrame

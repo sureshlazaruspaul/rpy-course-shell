@@ -1,6 +1,7 @@
+# type: ignore
 import json
 import numpy as np
-from icecream import ic # type: ignore
+from icecream import ic
 from pathlib import Path
 
 # loops concepts

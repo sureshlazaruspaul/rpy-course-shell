@@ -1,6 +1,7 @@
+# type: ignore
 #----------------------------------------------------------------------
 # author: Suresh Paul
-# date: November 2025
+# date: November 2026
 # objective: Date handling basics in pandas
 #   This script showcases how to read a CSV file containing date
 #   information, convert various date formats to pandas datetime format,
