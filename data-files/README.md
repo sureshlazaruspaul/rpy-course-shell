@@ -7,5 +7,5 @@
 -   `trades` json dataset, click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/data-files/trades.json)
 -   `dates` csv dataset, click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/data-files/dates.csv)
 -   `dcf_data` csv dataset, click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/data-files/dcf_data.csv)
-
+-   `sp500_prices` csv dataset, click [here](https://github.com/sureshlazaruspaul/rpy-course-shell/raw/refs/heads/main/data-files/sp500_prices.csv)
 

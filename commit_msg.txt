@@ -1,1 +1,8 @@
-updated ignore types in all files
+1. uploaded data-files/sp500_prices.csv
+2. updated data-files/README.md
+3. uploaded py-files/operations_by_group.py
+4. uploaded py-files/aggregation_basics.py
+5. updated py-files/type_annotation.py
+6. updated py-files/README.md
+
+Lesson 5: Group operations and Aggregations + Type Annotation / Logging
