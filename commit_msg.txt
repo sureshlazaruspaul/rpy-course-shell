@@ -1,1 +1,5 @@
-updated class-version of all codes
+updated codes for loops and functions basics
+
+-   py-files/for_loops_basics.py
+-   py-files/if_loops_basics.py
+-   py-files/functions_basics.py
