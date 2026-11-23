@@ -10,10 +10,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-abs_path = Path("C:\\data\\iris.csv")
-if abs_path.exists():
-    print("File exists.")
-else:
-    print("File does not exist.")
-
-df = pd.read_csv(abs_path)
+# abs_path = Path("C:\\data\\iris.csv")
+# if abs_path.exists():
+#     print("File exists.")
+# df = pd.read_csv(abs_path)

@@ -1,5 +1,6 @@
 updated class version of codes for loops and functions basics
 
--   py-files/for_loops_basics_class-version_FA2026.py
--   py-files/if_loops_basics_class-version_FA2026.py
--   py-files/functions_basics_class-version_FA2026.py
+-   py-files/isinstance_check.py
+-   py-files/array_arithmetic.py
+-   py-files/csv_import_function.py
+-   py-files/list2numpy.py

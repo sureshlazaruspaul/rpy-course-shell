@@ -9,6 +9,5 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-
-def list2numpy(list_seq):
-    return np.array(list_seq, dtype=float)
+# def list2numpy(list_seq):
+#     return np.array(list_seq, dtype=float)
